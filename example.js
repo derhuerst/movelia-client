@@ -1,3 +1,6 @@
-import {todo} from './index.js'
+import {
+	fetchStops,
+} from './index.js'
 
-// todo
+const stops = await fetchStops()
+console.log(stops)

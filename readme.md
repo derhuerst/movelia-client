@@ -18,8 +18,44 @@ npm install movelia-client
 
 ## Usage
 
+### `fetchStops(opt)`
+
 ```js
-// todo
+import {fetchStops} from 'movelia-client'
+
+console.log(await fetchStops())
+```
+
+```js
+[
+	{
+		id: '125',
+		name: 'A CORUÑA/LA CORUÑA E.A.',
+		countryCode: '34',
+		bookingId: '-386792',
+	},
+	{
+		id: '125',
+		name: 'A CORUÑA/LA CORUÑA E.A.',
+		countryCode: '34',
+		bookingId: '900056174',
+	},
+	// …
+	{
+		id: '6077',
+		name: 'BARCELONA',
+		countryCode: '34',
+		bookingId: '-372490',
+	},
+	// …
+	{
+		id: '212',
+		name: 'ZARAGOZA',
+		countryCode: '34',
+		bookingId: '-409149',
+	},
+	// …
+]
 ```
 
 

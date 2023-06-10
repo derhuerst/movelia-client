@@ -8,6 +8,11 @@ import {fetch} from 'cross-fetch'
 const pkg = require('./package.json')
 
 const API_BASE_URL = 'https://www.movelia.es:4443/api/'
+const DEFAULT_USER_AGENT = `${pkg.name} v${pkg.version}`
+
+// as used by their webapp
+const ANONYMOUS_USER = 'usuNoReg'
+const ANONYMOUS_PASSWORD = 'usuNoReg'
 
 const debugFetch = createDebug('movelia-client:fetch')
 
@@ -94,7 +99,45 @@ const ensureToken = async (cfg) => {
 	return getTokenRes.value
 }
 
-// todo
+const defaults = {
+	userAgent: DEFAULT_USER_AGENT,
+	user: ANONYMOUS_USER,
+	password: ANONYMOUS_PASSWORD,
+}
+
+const fetchStopsFromMoveliaApi = async (opt = {}) => {
+	const {
+		userAgent,
+		user,
+		password,
+	} = {
+		...defaults,
+		...opt,
+	}
+
+	const token = await ensureToken({
+		userAgent,
+		user,
+		password,
+	})
+
+	const cities = await fetchFromMoveliaApi({
+		call: 'v1/GetCitiesWithBooking',
+		userAgent,
+		token,
+	})
+
+	const stops = cities.map((city) => {
+		return {
+			id: city.code || null,
+			name: city.name || null,
+			countryCode: city.countrY_CODE || null, // wat
+			bookingId: city.iD_BOOKING || null, // wat
+		}
+	})
+	return stops
+}
 
 export {
+	fetchStopsFromMoveliaApi as fetchStops,
 }

@@ -1,7 +1,12 @@
 import test from 'node:test'
+import {ok} from 'node:assert'
 
-import {todo} from '../index.js'
+import {
+	fetchStops,
+} from '../index.js'
 
-test('todo', (t) => {
-	// todo
+test('fetchStops() works', async () => {
+	const stops = await fetchStops()
+	ok(Array.isArray(stops))
+	ok(stops.length > 1)
 })
