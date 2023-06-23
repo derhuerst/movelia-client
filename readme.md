@@ -60,6 +60,95 @@ console.log(await fetchStops())
 ]
 ```
 
+### `fetchItineraries(from, to, opt)`
+
+```js
+import {fetchItineraries} from 'movelia-client'
+
+console.log(await fetchItineraries('BARCELONA', 'ZARAGOZA', {
+	when: '2023-06-29T00:00+02:00',
+}))
+```
+
+```js
+{
+	outbound: [
+		{
+			origin: {id: null, name: 'BARCELONA SANTS'},
+			departure: '2023-06-29T05:45',
+			plannedDeparture: '2023-06-29T05:45',
+
+			destination: {id: null, name: 'ZARAGOZA DELICIAS ESTACION TREN'},
+			arrival: '2023-06-29T07:08',
+			plannedArrival: '2023-06-29T07:08',
+
+			legs: [{
+				origin: {id: null, name: 'BARCELONA SANTS'},
+				plannedDeparture: '2023-06-29T05:45',
+				departure: '2023-06-29T05:45',
+
+				destination: {id: null, name: 'ZARAGOZA DELICIAS ESTACION TREN'},
+				plannedArrival: '2023-06-29T07:08',
+				arrival: '2023-06-29T07:08',
+
+				duration: null,
+				availableSeats: null,
+				serviceName: 'Normal',
+			}],
+
+			price: {
+				code: 'FARE-4',
+				kind: null,
+				name: 'Infinita Flexible',
+				amount: 34
+			},
+			provider: {
+				id: '1252',
+				name: 'IRYO',
+				logo: 'https://www.movelia.es/Recursos/img/g_iryo.png',
+			},
+		},
+		// …
+		{
+			origin: {id: null, name: 'BARCELONA (NORD)'},
+			departure: '2023-06-29T23:59',
+			plannedDeparture: '2023-06-29T23:59',
+
+			destination: {id: null, name: 'ZARAGOZA'},
+			arrival: '2023-06-30T03:44',
+			plannedArrival: '2023-06-30T03:44',
+
+			legs: [
+				{
+					origin: {id: null, name: 'BARCELONA (NORD)'},
+					plannedDeparture: '2023-06-29T23:59',
+					departure: '2023-06-29T23:59',
+
+					destination: {id: null, name: 'ZARAGOZA'},
+					plannedArrival: '2023-06-30T03:44',
+					arrival: '2023-06-30T03:44',
+
+					duration: null,
+					availableSeats: 50,
+					serviceName: 'Normal',
+				},
+			],
+			price: {
+				code: 'BASE',
+				kind: 'Puedes anular y cambiar',
+				name: 'Puedes anular y cambiar',
+				amount: 18.06
+			},
+			provider: {
+				id: '8',
+				name: 'ARATESA',
+				logo: 'https://www.movelia.es/Recursos/img/g_alsa.png',
+			},
+		},
+	],
+}
+```
+
 
 ## Contributing
 

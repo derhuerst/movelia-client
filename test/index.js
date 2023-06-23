@@ -3,17 +3,27 @@
 import {createRequire} from 'node:module'
 const require = createRequire(import.meta.url)
 
+import {DateTime} from 'luxon'
 import test from 'node:test'
-import {deepStrictEqual, ok} from 'node:assert'
+import {strictEqual, deepStrictEqual, ok} from 'node:assert'
 
 import {
 	parseJourney,
 } from '../lib/parse.js'
 import {
 	fetchStops,
+	fetchItineraries,
 } from '../index.js'
 
 const schedulesFromText1 = require('./SchedulesFromText-response-1.json')
+
+const when = DateTime
+.now({
+	zone: 'Europe/Madrid',
+	locale: 'en-ES',
+})
+.startOf('month').plus({months: 2, hours: 10})
+.toMillis()
 
 test('parseJourney() works with SchedulesFromText-response-1.json', (t) => {
 	const {travel} = schedulesFromText1.schedules.responseData
@@ -87,4 +97,26 @@ test('fetchStops() works', async () => {
 	const stops = await fetchStops()
 	ok(Array.isArray(stops))
 	ok(stops.length > 1)
+})
+
+test('fetchItineraries() works', async () => {
+	const {
+		outbound,
+		previousDayLink,
+		nextDayLink,
+	} = await fetchItineraries('MADRID', 'IRUN', {when})
+
+	ok(Array.isArray(outbound))
+	ok(outbound.length > 1)
+
+	if (previousDayLink !== null) {
+		ok(previousDayLink, 'res.previousDayLink')
+		strictEqual(typeof previousDayLink.sessionId, 'string', 'res.previousDayLink.sessionId')
+	}
+	if (nextDayLink !== null) {
+		ok(nextDayLink, 'res.nextDayLink')
+		strictEqual(typeof nextDayLink.sessionId, 'string', 'res.nextDayLink.sessionId')
+	}
+
+	// todo
 })
