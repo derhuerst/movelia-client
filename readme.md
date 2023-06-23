@@ -18,6 +18,8 @@ npm install movelia-client
 
 ## Usage
 
+**Note:** Because the Movelia API *does not* return timezone information for each arrival & departure date+time, this library returns [ISO 8601 strings *without* an offset ("local time")](https://en.wikipedia.org/wiki/ISO_8601#Local_time_(unqualified)). This means that you *cannot* convert them to UNIX timestamps or do any calculations (e.g. the duration of the itinerary) on them. Unfortunately, with input lacking an offset, most date+time libraries will silently add the system's local offset, leading to hard-to-find bugs with significant effects.
+
 ### `fetchStops(opt)`
 
 ```js

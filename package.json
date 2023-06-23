@@ -6,6 +6,7 @@
 	"main": "index.js",
 	"files": [
 		"index.js",
+		"lib",
 		"example.js"
 	],
 	"keywords": [
@@ -25,7 +26,8 @@
 	},
 	"dependencies": {
 		"cross-fetch": "^3.1.6",
-		"debug": "^4.3.4"
+		"debug": "^4.3.4",
+		"luxon": "^3.3.0"
 	},
 	"devDependencies": {
 		"eslint": "^8.0.0"

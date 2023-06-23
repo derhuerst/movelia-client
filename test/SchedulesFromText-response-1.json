@@ -1,0 +1,1391 @@
+{
+	"schedules":
+	{
+		"sessionId": "860d03f6d75401f3581c4e5cced5548e277cdb62",
+		"responseData":
+		{
+			"errors":
+			{
+				"error":
+				[
+					{
+						"number": "0",
+						"messageError": ""
+					}
+				]
+			},
+			"generalData":
+			{
+				"section":
+				[
+					{
+						"num": "1",
+						"passengersNumber": "1",
+						"isOpen": "0",
+						"returnLikeForward": "0",
+						"internationalTravel": "0",
+						"noDirectSchedules": "1",
+						"dataChange": null,
+						"supplements":
+						{
+							"passenger":
+							[
+								{
+									"num": "1",
+									"typeCode": "1",
+									"typeName": "Adulto",
+									"supplement":
+									[
+										{
+											"selected": "0",
+											"code": "1",
+											"name": "Mascota"
+										},
+										{
+											"selected": "0",
+											"code": "2",
+											"name": "Material Deportivo"
+										},
+										{
+											"selected": "0",
+											"code": "3",
+											"name": "Plaza PMR"
+										}
+									]
+								}
+							]
+						}
+					}
+				],
+				"informativeMessages": null
+			},
+			"travel":
+			{
+				"international": "0",
+				"outbound":
+				{
+					"section":
+					[
+						{
+							"num": "1",
+							"count": "12",
+							"combination":
+							[
+								{
+									"connectType": "C",
+									"num": "1",
+									"count": "2",
+									"date": "23/06/2023",
+									"allowGetOpenPrice": "0",
+									"combinationId": "1",
+									"busOrBoat": "1",
+									"systemId": "1",
+									"salable": "1",
+									"typeServiceCode": "C",
+									"pmrSeats": "0",
+									"petSeats": "1",
+									"sportequipmentSeats": "4",
+									"babysitterSeats": "0",
+									"origin": "615",
+									"originName": "CARTAGENA",
+									"companyLine": "560",
+									"serviceNumber": "104",
+									"line": "8910",
+									"companyId": "19",
+									"serverId": "1",
+									"code": "560",
+									"companyName": "GRUPO ENATCAR S.A.",
+									"showTime": "1",
+									"logo": "https://www.movelia.es/Recursos/img/g_alsa.png",
+									"typeService": "Supra Economy",
+									"departureDate": "23/06/2023",
+									"departureTime": "07:15",
+									"reinforcement": "-1",
+									"freeSeats": "24",
+									"observationSegment": "",
+									"allowQueryBooking": "2",
+									"generalObservations": "",
+									"destination": "186",
+									"destinationName": "OVIEDO / UVIEU",
+									"arrivalDate": "23/06/2023",
+									"arrivalTime": "19:30",
+									"basicPrice": "109,56",
+									"direct": "0",
+									"rates":
+									{
+										"rate":
+										[
+											{
+												"num": "1",
+												"selected": "0",
+												"rateCode": "BASE",
+												"rateName": "Puedes anular y cambiar",
+												"rateType": "Puedes anular y cambiar",
+												"rateTotalPrice": "109,56",
+												"rateTotalBasePrice": "",
+												"rateFeatures": "",
+												"passengers":
+												{
+													"passenger":
+													[
+														{
+															"count": "1",
+															"passengerTypeCode": "1",
+															"passengerTypeName": "Adulto",
+															"clearPrice": "109,56",
+															"clearPriceOR": "",
+															"promoCode": "",
+															"promoName": "",
+															"busAndBoatSalePromo": "0",
+															"mandatoryOutboundReturn": "0",
+															"promoObservation": ""
+														}
+													]
+												}
+											}
+										]
+									},
+									"popupMessages": null,
+									"itinerary":
+									{
+										"itSegment":
+										[
+											{
+												"num": "1",
+												"hours": "0",
+												"minutes": "0",
+												"originName": "CARTAGENA",
+												"originCode": "615",
+												"destinationName": "MADRID ESTACION SUR",
+												"destinationCode": "155",
+												"arrivalDate": "23/06/2023",
+												"arrivalTime": "12:35",
+												"freeSeats": "24",
+												"typeService": "Supra Economy"
+											},
+											{
+												"num": "2",
+												"hours": "1",
+												"minutes": "25",
+												"originName": "MADRID ESTACION SUR",
+												"originCode": "155",
+												"destinationName": "OVIEDO / UVIEU",
+												"destinationCode": "186",
+												"arrivalDate": "23/06/2023",
+												"arrivalTime": "19:30",
+												"freeSeats": "0",
+												"typeService": "Normal"
+											}
+										]
+									}
+								},
+								{
+									"connectType": "C",
+									"num": "2",
+									"count": "2",
+									"date": "23/06/2023",
+									"allowGetOpenPrice": "0",
+									"combinationId": "2",
+									"busOrBoat": "1",
+									"systemId": "1",
+									"salable": "1",
+									"typeServiceCode": "C",
+									"pmrSeats": "0",
+									"petSeats": "1",
+									"sportequipmentSeats": "4",
+									"babysitterSeats": "0",
+									"origin": "615",
+									"originName": "CARTAGENA",
+									"companyLine": "560",
+									"serviceNumber": "104",
+									"line": "8910",
+									"companyId": "19",
+									"serverId": "1",
+									"code": "560",
+									"companyName": "GRUPO ENATCAR S.A.",
+									"showTime": "1",
+									"logo": "https://www.movelia.es/Recursos/img/g_supra.png",
+									"typeService": "Supra Economy",
+									"departureDate": "23/06/2023",
+									"departureTime": "07:15",
+									"reinforcement": "-1",
+									"freeSeats": "24",
+									"observationSegment": "",
+									"allowQueryBooking": "2",
+									"generalObservations": "",
+									"destination": "186",
+									"destinationName": "OVIEDO / UVIEU",
+									"arrivalDate": "23/06/2023",
+									"arrivalTime": "20:45",
+									"basicPrice": "152,30",
+									"direct": "0",
+									"rates":
+									{
+										"rate":
+										[
+											{
+												"num": "1",
+												"selected": "0",
+												"rateCode": "BASE",
+												"rateName": "Puedes anular y cambiar",
+												"rateType": "Puedes anular y cambiar",
+												"rateTotalPrice": "152,30",
+												"rateTotalBasePrice": "",
+												"rateFeatures": "",
+												"passengers":
+												{
+													"passenger":
+													[
+														{
+															"count": "1",
+															"passengerTypeCode": "1",
+															"passengerTypeName": "Adulto",
+															"clearPrice": "152,30",
+															"clearPriceOR": "",
+															"promoCode": "",
+															"promoName": "",
+															"busAndBoatSalePromo": "0",
+															"mandatoryOutboundReturn": "0",
+															"promoObservation": ""
+														}
+													]
+												}
+											}
+										]
+									},
+									"popupMessages": null,
+									"itinerary":
+									{
+										"itSegment":
+										[
+											{
+												"num": "1",
+												"hours": "0",
+												"minutes": "0",
+												"originName": "CARTAGENA",
+												"originCode": "615",
+												"destinationName": "MADRID ESTACION SUR",
+												"destinationCode": "155",
+												"arrivalDate": "23/06/2023",
+												"arrivalTime": "12:35",
+												"freeSeats": "24",
+												"typeService": "Supra Economy"
+											},
+											{
+												"num": "2",
+												"hours": "2",
+												"minutes": "25",
+												"originName": "MADRID ESTACION SUR",
+												"originCode": "155",
+												"destinationName": "OVIEDO / UVIEU",
+												"destinationCode": "186",
+												"arrivalDate": "23/06/2023",
+												"arrivalTime": "20:45",
+												"freeSeats": "10",
+												"typeService": "Supra Economy"
+											}
+										]
+									}
+								},
+								{
+									"connectType": "C",
+									"num": "3",
+									"count": "2",
+									"date": "23/06/2023",
+									"allowGetOpenPrice": "0",
+									"combinationId": "3",
+									"busOrBoat": "1",
+									"systemId": "1",
+									"salable": "1",
+									"typeServiceCode": "N",
+									"pmrSeats": "0",
+									"petSeats": "1",
+									"sportequipmentSeats": "4",
+									"babysitterSeats": "0",
+									"origin": "615",
+									"originName": "CARTAGENA",
+									"companyLine": "560",
+									"serviceNumber": "106",
+									"line": "8559",
+									"companyId": "19",
+									"serverId": "1",
+									"code": "560",
+									"companyName": "GRUPO ENATCAR S.A.",
+									"showTime": "1",
+									"logo": "https://www.movelia.es/Recursos/img/g_supra.png",
+									"typeService": "Normal",
+									"departureDate": "23/06/2023",
+									"departureTime": "08:45",
+									"reinforcement": "-1",
+									"freeSeats": "0",
+									"observationSegment": "",
+									"allowQueryBooking": "2",
+									"generalObservations": "",
+									"destination": "186",
+									"destinationName": "OVIEDO / UVIEU",
+									"arrivalDate": "23/06/2023",
+									"arrivalTime": "20:45",
+									"basicPrice": "119,75",
+									"direct": "0",
+									"rates":
+									{
+										"rate":
+										[
+											{
+												"num": "1",
+												"selected": "0",
+												"rateCode": "BASE",
+												"rateName": "Puedes anular y cambiar",
+												"rateType": "Puedes anular y cambiar",
+												"rateTotalPrice": "119,75",
+												"rateTotalBasePrice": "",
+												"rateFeatures": "",
+												"passengers":
+												{
+													"passenger":
+													[
+														{
+															"count": "1",
+															"passengerTypeCode": "1",
+															"passengerTypeName": "Adulto",
+															"clearPrice": "119,75",
+															"clearPriceOR": "",
+															"promoCode": "",
+															"promoName": "",
+															"busAndBoatSalePromo": "0",
+															"mandatoryOutboundReturn": "0",
+															"promoObservation": ""
+														}
+													]
+												}
+											}
+										]
+									},
+									"popupMessages": null,
+									"itinerary":
+									{
+										"itSegment":
+										[
+											{
+												"num": "1",
+												"hours": "0",
+												"minutes": "0",
+												"originName": "CARTAGENA",
+												"originCode": "615",
+												"destinationName": "MADRID ESTACION SUR",
+												"destinationCode": "155",
+												"arrivalDate": "23/06/2023",
+												"arrivalTime": "14:10",
+												"freeSeats": "0",
+												"typeService": "Normal"
+											},
+											{
+												"num": "2",
+												"hours": "0",
+												"minutes": "50",
+												"originName": "MADRID ESTACION SUR",
+												"originCode": "155",
+												"destinationName": "OVIEDO / UVIEU",
+												"destinationCode": "186",
+												"arrivalDate": "23/06/2023",
+												"arrivalTime": "20:45",
+												"freeSeats": "0",
+												"typeService": "Supra Economy"
+											}
+										]
+									}
+								},
+								{
+									"connectType": "C",
+									"num": "4",
+									"count": "2",
+									"date": "23/06/2023",
+									"allowGetOpenPrice": "0",
+									"combinationId": "4",
+									"busOrBoat": "1",
+									"systemId": "1",
+									"salable": "1",
+									"typeServiceCode": "N",
+									"pmrSeats": "0",
+									"petSeats": "1",
+									"sportequipmentSeats": "4",
+									"babysitterSeats": "0",
+									"origin": "615",
+									"originName": "CARTAGENA",
+									"companyLine": "560",
+									"serviceNumber": "106",
+									"line": "8559",
+									"companyId": "19",
+									"serverId": "1",
+									"code": "560",
+									"companyName": "GRUPO ENATCAR S.A.",
+									"showTime": "1",
+									"logo": "https://www.movelia.es/Recursos/img/g_alsa.png",
+									"typeService": "Normal",
+									"departureDate": "23/06/2023",
+									"departureTime": "08:45",
+									"reinforcement": "-1",
+									"freeSeats": "0",
+									"observationSegment": "",
+									"allowQueryBooking": "2",
+									"generalObservations": "",
+									"destination": "186",
+									"destinationName": "OVIEDO / UVIEU",
+									"arrivalDate": "23/06/2023",
+									"arrivalTime": "21:45",
+									"basicPrice": "77,01",
+									"direct": "0",
+									"rates":
+									{
+										"rate":
+										[
+											{
+												"num": "1",
+												"selected": "0",
+												"rateCode": "BASE",
+												"rateName": "Puedes anular y cambiar",
+												"rateType": "Puedes anular y cambiar",
+												"rateTotalPrice": "77,01",
+												"rateTotalBasePrice": "",
+												"rateFeatures": "",
+												"passengers":
+												{
+													"passenger":
+													[
+														{
+															"count": "1",
+															"passengerTypeCode": "1",
+															"passengerTypeName": "Adulto",
+															"clearPrice": "77,01",
+															"clearPriceOR": "",
+															"promoCode": "",
+															"promoName": "",
+															"busAndBoatSalePromo": "0",
+															"mandatoryOutboundReturn": "0",
+															"promoObservation": ""
+														}
+													]
+												}
+											}
+										]
+									},
+									"popupMessages": null,
+									"itinerary":
+									{
+										"itSegment":
+										[
+											{
+												"num": "1",
+												"hours": "0",
+												"minutes": "0",
+												"originName": "CARTAGENA",
+												"originCode": "615",
+												"destinationName": "MADRID ESTACION SUR",
+												"destinationCode": "155",
+												"arrivalDate": "23/06/2023",
+												"arrivalTime": "14:10",
+												"freeSeats": "0",
+												"typeService": "Normal"
+											},
+											{
+												"num": "2",
+												"hours": "2",
+												"minutes": "5",
+												"originName": "MADRID ESTACION SUR",
+												"originCode": "155",
+												"destinationName": "OVIEDO / UVIEU",
+												"destinationCode": "186",
+												"arrivalDate": "23/06/2023",
+												"arrivalTime": "21:45",
+												"freeSeats": "0",
+												"typeService": "Normal"
+											}
+										]
+									}
+								},
+								{
+									"connectType": "C",
+									"num": "5",
+									"count": "2",
+									"date": "23/06/2023",
+									"allowGetOpenPrice": "0",
+									"combinationId": "5",
+									"busOrBoat": "1",
+									"systemId": "1",
+									"salable": "1",
+									"typeServiceCode": "N",
+									"pmrSeats": "0",
+									"petSeats": "1",
+									"sportequipmentSeats": "4",
+									"babysitterSeats": "0",
+									"origin": "615",
+									"originName": "CARTAGENA",
+									"companyLine": "560",
+									"serviceNumber": "106",
+									"line": "8559",
+									"companyId": "19",
+									"serverId": "1",
+									"code": "560",
+									"companyName": "GRUPO ENATCAR S.A.",
+									"showTime": "1",
+									"logo": "https://www.movelia.es/Recursos/img/g_alsa.png",
+									"typeService": "Normal",
+									"departureDate": "23/06/2023",
+									"departureTime": "08:45",
+									"reinforcement": "-1",
+									"freeSeats": "0",
+									"observationSegment": "",
+									"allowQueryBooking": "2",
+									"generalObservations": "",
+									"destination": "186",
+									"destinationName": "OVIEDO / UVIEU",
+									"arrivalDate": "23/06/2023",
+									"arrivalTime": "21:45",
+									"basicPrice": "77,01",
+									"direct": "0",
+									"rates":
+									{
+										"rate":
+										[
+											{
+												"num": "1",
+												"selected": "0",
+												"rateCode": "BASE",
+												"rateName": "Puedes anular y cambiar",
+												"rateType": "Puedes anular y cambiar",
+												"rateTotalPrice": "77,01",
+												"rateTotalBasePrice": "",
+												"rateFeatures": "",
+												"passengers":
+												{
+													"passenger":
+													[
+														{
+															"count": "1",
+															"passengerTypeCode": "1",
+															"passengerTypeName": "Adulto",
+															"clearPrice": "77,01",
+															"clearPriceOR": "",
+															"promoCode": "",
+															"promoName": "",
+															"busAndBoatSalePromo": "0",
+															"mandatoryOutboundReturn": "0",
+															"promoObservation": ""
+														}
+													]
+												}
+											}
+										]
+									},
+									"popupMessages": null,
+									"itinerary":
+									{
+										"itSegment":
+										[
+											{
+												"num": "1",
+												"hours": "0",
+												"minutes": "0",
+												"originName": "CARTAGENA",
+												"originCode": "615",
+												"destinationName": "MADRID ESTACION SUR",
+												"destinationCode": "155",
+												"arrivalDate": "23/06/2023",
+												"arrivalTime": "14:10",
+												"freeSeats": "0",
+												"typeService": "Normal"
+											},
+											{
+												"num": "2",
+												"hours": "1",
+												"minutes": "50",
+												"originName": "MADRID ESTACION SUR",
+												"originCode": "155",
+												"destinationName": "OVIEDO / UVIEU",
+												"destinationCode": "186",
+												"arrivalDate": "23/06/2023",
+												"arrivalTime": "21:45",
+												"freeSeats": "0",
+												"typeService": "Normal"
+											}
+										]
+									}
+								},
+								{
+									"connectType": "C",
+									"num": "6",
+									"count": "2",
+									"date": "23/06/2023",
+									"allowGetOpenPrice": "0",
+									"combinationId": "6",
+									"busOrBoat": "1",
+									"systemId": "1",
+									"salable": "1",
+									"typeServiceCode": "N",
+									"pmrSeats": "0",
+									"petSeats": "1",
+									"sportequipmentSeats": "4",
+									"babysitterSeats": "0",
+									"origin": "615",
+									"originName": "CARTAGENA",
+									"companyLine": "560",
+									"serviceNumber": "106",
+									"line": "8559",
+									"companyId": "19",
+									"serverId": "1",
+									"code": "560",
+									"companyName": "GRUPO ENATCAR S.A.",
+									"showTime": "1",
+									"logo": "https://www.movelia.es/Recursos/img/g_alsa.png",
+									"typeService": "Normal",
+									"departureDate": "23/06/2023",
+									"departureTime": "08:45",
+									"reinforcement": "-1",
+									"freeSeats": "0",
+									"observationSegment": "",
+									"allowQueryBooking": "2",
+									"generalObservations": "",
+									"destination": "186",
+									"destinationName": "OVIEDO / UVIEU",
+									"arrivalDate": "23/06/2023",
+									"arrivalTime": "22:30",
+									"basicPrice": "77,01",
+									"direct": "0",
+									"rates":
+									{
+										"rate":
+										[
+											{
+												"num": "1",
+												"selected": "0",
+												"rateCode": "BASE",
+												"rateName": "Puedes anular y cambiar",
+												"rateType": "Puedes anular y cambiar",
+												"rateTotalPrice": "77,01",
+												"rateTotalBasePrice": "",
+												"rateFeatures": "",
+												"passengers":
+												{
+													"passenger":
+													[
+														{
+															"count": "1",
+															"passengerTypeCode": "1",
+															"passengerTypeName": "Adulto",
+															"clearPrice": "77,01",
+															"clearPriceOR": "",
+															"promoCode": "",
+															"promoName": "",
+															"busAndBoatSalePromo": "0",
+															"mandatoryOutboundReturn": "0",
+															"promoObservation": ""
+														}
+													]
+												}
+											}
+										]
+									},
+									"popupMessages": null,
+									"itinerary":
+									{
+										"itSegment":
+										[
+											{
+												"num": "1",
+												"hours": "0",
+												"minutes": "0",
+												"originName": "CARTAGENA",
+												"originCode": "615",
+												"destinationName": "MADRID ESTACION SUR",
+												"destinationCode": "155",
+												"arrivalDate": "23/06/2023",
+												"arrivalTime": "14:10",
+												"freeSeats": "0",
+												"typeService": "Normal"
+											},
+											{
+												"num": "2",
+												"hours": "2",
+												"minutes": "50",
+												"originName": "MADRID ESTACION SUR",
+												"originCode": "155",
+												"destinationName": "OVIEDO / UVIEU",
+												"destinationCode": "186",
+												"arrivalDate": "23/06/2023",
+												"arrivalTime": "22:30",
+												"freeSeats": "0",
+												"typeService": "Normal"
+											}
+										]
+									}
+								},
+								{
+									"connectType": "C",
+									"num": "7",
+									"count": "2",
+									"date": "23/06/2023",
+									"allowGetOpenPrice": "0",
+									"combinationId": "7",
+									"busOrBoat": "1",
+									"systemId": "1",
+									"salable": "1",
+									"typeServiceCode": "N",
+									"pmrSeats": "0",
+									"petSeats": "1",
+									"sportequipmentSeats": "4",
+									"babysitterSeats": "0",
+									"origin": "615",
+									"originName": "CARTAGENA",
+									"companyLine": "560",
+									"serviceNumber": "105",
+									"line": "8559",
+									"companyId": "19",
+									"serverId": "1",
+									"code": "560",
+									"companyName": "GRUPO ENATCAR S.A.",
+									"showTime": "1",
+									"logo": "https://www.movelia.es/Recursos/img/g_alsa.png",
+									"typeService": "Normal",
+									"departureDate": "23/06/2023",
+									"departureTime": "09:45",
+									"reinforcement": "-1",
+									"freeSeats": "49",
+									"observationSegment": "",
+									"allowQueryBooking": "2",
+									"generalObservations": "",
+									"destination": "186",
+									"destinationName": "OVIEDO / UVIEU",
+									"arrivalDate": "23/06/2023",
+									"arrivalTime": "22:30",
+									"basicPrice": "77,01",
+									"direct": "0",
+									"rates":
+									{
+										"rate":
+										[
+											{
+												"num": "1",
+												"selected": "0",
+												"rateCode": "BASE",
+												"rateName": "Puedes anular y cambiar",
+												"rateType": "Puedes anular y cambiar",
+												"rateTotalPrice": "77,01",
+												"rateTotalBasePrice": "",
+												"rateFeatures": "",
+												"passengers":
+												{
+													"passenger":
+													[
+														{
+															"count": "1",
+															"passengerTypeCode": "1",
+															"passengerTypeName": "Adulto",
+															"clearPrice": "77,01",
+															"clearPriceOR": "",
+															"promoCode": "",
+															"promoName": "",
+															"busAndBoatSalePromo": "0",
+															"mandatoryOutboundReturn": "0",
+															"promoObservation": ""
+														}
+													]
+												}
+											}
+										]
+									},
+									"popupMessages": null,
+									"itinerary":
+									{
+										"itSegment":
+										[
+											{
+												"num": "1",
+												"hours": "0",
+												"minutes": "0",
+												"originName": "CARTAGENA",
+												"originCode": "615",
+												"destinationName": "MADRID ESTACION SUR",
+												"destinationCode": "155",
+												"arrivalDate": "23/06/2023",
+												"arrivalTime": "16:30",
+												"freeSeats": "49",
+												"typeService": "Normal"
+											},
+											{
+												"num": "2",
+												"hours": "0",
+												"minutes": "30",
+												"originName": "MADRID ESTACION SUR",
+												"originCode": "155",
+												"destinationName": "OVIEDO / UVIEU",
+												"destinationCode": "186",
+												"arrivalDate": "23/06/2023",
+												"arrivalTime": "22:30",
+												"freeSeats": "0",
+												"typeService": "Normal"
+											}
+										]
+									}
+								},
+								{
+									"connectType": "C",
+									"num": "8",
+									"count": "2",
+									"date": "23/06/2023",
+									"allowGetOpenPrice": "0",
+									"combinationId": "8",
+									"busOrBoat": "1",
+									"systemId": "1",
+									"salable": "1",
+									"typeServiceCode": "N",
+									"pmrSeats": "0",
+									"petSeats": "1",
+									"sportequipmentSeats": "4",
+									"babysitterSeats": "0",
+									"origin": "615",
+									"originName": "CARTAGENA",
+									"companyLine": "560",
+									"serviceNumber": "105",
+									"line": "8559",
+									"companyId": "19",
+									"serverId": "1",
+									"code": "560",
+									"companyName": "GRUPO ENATCAR S.A.",
+									"showTime": "1",
+									"logo": "https://www.movelia.es/Recursos/img/g_alsa.png",
+									"typeService": "Normal",
+									"departureDate": "23/06/2023",
+									"departureTime": "09:45",
+									"reinforcement": "-1",
+									"freeSeats": "49",
+									"observationSegment": "",
+									"allowQueryBooking": "2",
+									"generalObservations": "",
+									"destination": "186",
+									"destinationName": "OVIEDO / UVIEU",
+									"arrivalDate": "23/06/2023",
+									"arrivalTime": "23:45",
+									"basicPrice": "77,01",
+									"direct": "0",
+									"rates":
+									{
+										"rate":
+										[
+											{
+												"num": "1",
+												"selected": "0",
+												"rateCode": "BASE",
+												"rateName": "Puedes anular y cambiar",
+												"rateType": "Puedes anular y cambiar",
+												"rateTotalPrice": "77,01",
+												"rateTotalBasePrice": "",
+												"rateFeatures": "",
+												"passengers":
+												{
+													"passenger":
+													[
+														{
+															"count": "1",
+															"passengerTypeCode": "1",
+															"passengerTypeName": "Adulto",
+															"clearPrice": "77,01",
+															"clearPriceOR": "",
+															"promoCode": "",
+															"promoName": "",
+															"busAndBoatSalePromo": "0",
+															"mandatoryOutboundReturn": "0",
+															"promoObservation": ""
+														}
+													]
+												}
+											}
+										]
+									},
+									"popupMessages": null,
+									"itinerary":
+									{
+										"itSegment":
+										[
+											{
+												"num": "1",
+												"hours": "0",
+												"minutes": "0",
+												"originName": "CARTAGENA",
+												"originCode": "615",
+												"destinationName": "MADRID ESTACION SUR",
+												"destinationCode": "155",
+												"arrivalDate": "23/06/2023",
+												"arrivalTime": "16:30",
+												"freeSeats": "49",
+												"typeService": "Normal"
+											},
+											{
+												"num": "2",
+												"hours": "1",
+												"minutes": "30",
+												"originName": "MADRID ESTACION SUR",
+												"originCode": "155",
+												"destinationName": "OVIEDO / UVIEU",
+												"destinationCode": "186",
+												"arrivalDate": "23/06/2023",
+												"arrivalTime": "23:45",
+												"freeSeats": "36",
+												"typeService": "Normal"
+											}
+										]
+									}
+								},
+								{
+									"connectType": "C",
+									"num": "9",
+									"count": "2",
+									"date": "23/06/2023",
+									"allowGetOpenPrice": "0",
+									"combinationId": "9",
+									"busOrBoat": "1",
+									"systemId": "1",
+									"salable": "1",
+									"typeServiceCode": "C",
+									"pmrSeats": "0",
+									"petSeats": "1",
+									"sportequipmentSeats": "4",
+									"babysitterSeats": "0",
+									"origin": "615",
+									"originName": "CARTAGENA",
+									"companyLine": "560",
+									"serviceNumber": "103",
+									"line": "8910",
+									"companyId": "19",
+									"serverId": "1",
+									"code": "560",
+									"companyName": "GRUPO ENATCAR S.A.",
+									"showTime": "1",
+									"logo": "https://www.movelia.es/Recursos/img/g_supra.png",
+									"typeService": "Supra Economy",
+									"departureDate": "23/06/2023",
+									"departureTime": "15:15",
+									"reinforcement": "-1",
+									"freeSeats": "32",
+									"observationSegment": "",
+									"allowQueryBooking": "2",
+									"generalObservations": "",
+									"destination": "186",
+									"destinationName": "OVIEDO / UVIEU",
+									"arrivalDate": "24/06/2023",
+									"arrivalTime": "02:45",
+									"basicPrice": "112,16",
+									"direct": "0",
+									"rates":
+									{
+										"rate":
+										[
+											{
+												"num": "1",
+												"selected": "0",
+												"rateCode": "BASE",
+												"rateName": "Puedes anular y cambiar",
+												"rateType": "Puedes anular y cambiar",
+												"rateTotalPrice": "112,16",
+												"rateTotalBasePrice": "",
+												"rateFeatures": "",
+												"passengers":
+												{
+													"passenger":
+													[
+														{
+															"count": "1",
+															"passengerTypeCode": "1",
+															"passengerTypeName": "Adulto",
+															"clearPrice": "112,16",
+															"clearPriceOR": "",
+															"promoCode": "",
+															"promoName": "",
+															"busAndBoatSalePromo": "0",
+															"mandatoryOutboundReturn": "0",
+															"promoObservation": ""
+														}
+													]
+												}
+											}
+										]
+									},
+									"popupMessages": null,
+									"itinerary":
+									{
+										"itSegment":
+										[
+											{
+												"num": "1",
+												"hours": "0",
+												"minutes": "0",
+												"originName": "CARTAGENA",
+												"originCode": "615",
+												"destinationName": "MADRID ESTACION SUR",
+												"destinationCode": "155",
+												"arrivalDate": "23/06/2023",
+												"arrivalTime": "20:35",
+												"freeSeats": "32",
+												"typeService": "Supra Economy"
+											},
+											{
+												"num": "2",
+												"hours": "0",
+												"minutes": "55",
+												"originName": "MADRID ESTACION SUR",
+												"originCode": "155",
+												"destinationName": "OVIEDO / UVIEU",
+												"destinationCode": "186",
+												"arrivalDate": "24/06/2023",
+												"arrivalTime": "02:45",
+												"freeSeats": "26",
+												"typeService": "Supra Economy"
+											}
+										]
+									}
+								},
+								{
+									"connectType": "C",
+									"num": "10",
+									"count": "2",
+									"date": "23/06/2023",
+									"allowGetOpenPrice": "0",
+									"combinationId": "10",
+									"busOrBoat": "1",
+									"systemId": "1",
+									"salable": "1",
+									"typeServiceCode": "C",
+									"pmrSeats": "0",
+									"petSeats": "1",
+									"sportequipmentSeats": "4",
+									"babysitterSeats": "0",
+									"origin": "615",
+									"originName": "CARTAGENA",
+									"companyLine": "560",
+									"serviceNumber": "103",
+									"line": "8910",
+									"companyId": "19",
+									"serverId": "1",
+									"code": "560",
+									"companyName": "GRUPO ENATCAR S.A.",
+									"showTime": "1",
+									"logo": "https://www.movelia.es/Recursos/img/g_alsa.png",
+									"typeService": "Supra Economy",
+									"departureDate": "23/06/2023",
+									"departureTime": "15:15",
+									"reinforcement": "-1",
+									"freeSeats": "32",
+									"observationSegment": "",
+									"allowQueryBooking": "2",
+									"generalObservations": "",
+									"destination": "186",
+									"destinationName": "OVIEDO / UVIEU",
+									"arrivalDate": "24/06/2023",
+									"arrivalTime": "05:15",
+									"basicPrice": "94,55",
+									"direct": "0",
+									"rates":
+									{
+										"rate":
+										[
+											{
+												"num": "1",
+												"selected": "0",
+												"rateCode": "BASE",
+												"rateName": "Puedes anular y cambiar",
+												"rateType": "Puedes anular y cambiar",
+												"rateTotalPrice": "94,55",
+												"rateTotalBasePrice": "",
+												"rateFeatures": "",
+												"passengers":
+												{
+													"passenger":
+													[
+														{
+															"count": "1",
+															"passengerTypeCode": "1",
+															"passengerTypeName": "Adulto",
+															"clearPrice": "94,55",
+															"clearPriceOR": "",
+															"promoCode": "",
+															"promoName": "",
+															"busAndBoatSalePromo": "0",
+															"mandatoryOutboundReturn": "0",
+															"promoObservation": ""
+														}
+													]
+												}
+											}
+										]
+									},
+									"popupMessages": null,
+									"itinerary":
+									{
+										"itSegment":
+										[
+											{
+												"num": "1",
+												"hours": "0",
+												"minutes": "0",
+												"originName": "CARTAGENA",
+												"originCode": "615",
+												"destinationName": "MADRID ESTACION SUR",
+												"destinationCode": "155",
+												"arrivalDate": "23/06/2023",
+												"arrivalTime": "20:35",
+												"freeSeats": "32",
+												"typeService": "Supra Economy"
+											},
+											{
+												"num": "2",
+												"hours": "2",
+												"minutes": "55",
+												"originName": "MADRID ESTACION SUR",
+												"originCode": "155",
+												"destinationName": "OVIEDO / UVIEU",
+												"destinationCode": "186",
+												"arrivalDate": "24/06/2023",
+												"arrivalTime": "05:15",
+												"freeSeats": "15",
+												"typeService": "Normal"
+											}
+										]
+									}
+								},
+								{
+									"connectType": "C",
+									"num": "11",
+									"count": "2",
+									"date": "23/06/2023",
+									"allowGetOpenPrice": "0",
+									"combinationId": "11",
+									"busOrBoat": "1",
+									"systemId": "1",
+									"salable": "1",
+									"typeServiceCode": "N",
+									"pmrSeats": "0",
+									"petSeats": "1",
+									"sportequipmentSeats": "4",
+									"babysitterSeats": "0",
+									"origin": "615",
+									"originName": "CARTAGENA",
+									"companyLine": "560",
+									"serviceNumber": "118",
+									"line": "8559",
+									"companyId": "19",
+									"serverId": "1",
+									"code": "560",
+									"companyName": "GRUPO ENATCAR S.A.",
+									"showTime": "1",
+									"logo": "https://www.movelia.es/Recursos/img/g_alsa.png",
+									"typeService": "Normal",
+									"departureDate": "23/06/2023",
+									"departureTime": "17:45",
+									"reinforcement": "-1",
+									"freeSeats": "22",
+									"observationSegment": "",
+									"allowQueryBooking": "2",
+									"generalObservations": "",
+									"destination": "186",
+									"destinationName": "OVIEDO / UVIEU",
+									"arrivalDate": "24/06/2023",
+									"arrivalTime": "06:15",
+									"basicPrice": "77,01",
+									"direct": "0",
+									"rates":
+									{
+										"rate":
+										[
+											{
+												"num": "1",
+												"selected": "0",
+												"rateCode": "BASE",
+												"rateName": "Puedes anular y cambiar",
+												"rateType": "Puedes anular y cambiar",
+												"rateTotalPrice": "77,01",
+												"rateTotalBasePrice": "",
+												"rateFeatures": "",
+												"passengers":
+												{
+													"passenger":
+													[
+														{
+															"count": "1",
+															"passengerTypeCode": "1",
+															"passengerTypeName": "Adulto",
+															"clearPrice": "77,01",
+															"clearPriceOR": "",
+															"promoCode": "",
+															"promoName": "",
+															"busAndBoatSalePromo": "0",
+															"mandatoryOutboundReturn": "0",
+															"promoObservation": ""
+														}
+													]
+												}
+											}
+										]
+									},
+									"popupMessages": null,
+									"itinerary":
+									{
+										"itSegment":
+										[
+											{
+												"num": "1",
+												"hours": "0",
+												"minutes": "0",
+												"originName": "CARTAGENA",
+												"originCode": "615",
+												"destinationName": "MADRID ESTACION SUR",
+												"destinationCode": "155",
+												"arrivalDate": "23/06/2023",
+												"arrivalTime": "23:30",
+												"freeSeats": "22",
+												"typeService": "Normal"
+											},
+											{
+												"num": "2",
+												"hours": "1",
+												"minutes": "0",
+												"originName": "MADRID ESTACION SUR",
+												"originCode": "155",
+												"destinationName": "OVIEDO / UVIEU",
+												"destinationCode": "186",
+												"arrivalDate": "24/06/2023",
+												"arrivalTime": "06:15",
+												"freeSeats": "15",
+												"typeService": "Normal"
+											}
+										]
+									}
+								},
+								{
+									"connectType": "C",
+									"num": "12",
+									"count": "2",
+									"date": "23/06/2023",
+									"allowGetOpenPrice": "0",
+									"combinationId": "12",
+									"busOrBoat": "1",
+									"systemId": "1",
+									"salable": "1",
+									"typeServiceCode": "N",
+									"pmrSeats": "0",
+									"petSeats": "1",
+									"sportequipmentSeats": "3",
+									"babysitterSeats": "0",
+									"origin": "615",
+									"originName": "CARTAGENA",
+									"companyLine": "560",
+									"serviceNumber": "111",
+									"line": "8559",
+									"companyId": "19",
+									"serverId": "1",
+									"code": "560",
+									"companyName": "GRUPO ENATCAR S.A.",
+									"showTime": "1",
+									"logo": "https://www.movelia.es/Recursos/img/g_alsa.png",
+									"typeService": "Normal",
+									"departureDate": "23/06/2023",
+									"departureTime": "23:15",
+									"reinforcement": "-1",
+									"freeSeats": "23",
+									"observationSegment": "",
+									"allowQueryBooking": "2",
+									"generalObservations": "",
+									"destination": "186",
+									"destinationName": "OVIEDO / UVIEU",
+									"arrivalDate": "24/06/2023",
+									"arrivalTime": "12:45",
+									"basicPrice": "77,01",
+									"direct": "0",
+									"rates":
+									{
+										"rate":
+										[
+											{
+												"num": "1",
+												"selected": "0",
+												"rateCode": "BASE",
+												"rateName": "Puedes anular y cambiar",
+												"rateType": "Puedes anular y cambiar",
+												"rateTotalPrice": "77,01",
+												"rateTotalBasePrice": "",
+												"rateFeatures": "",
+												"passengers":
+												{
+													"passenger":
+													[
+														{
+															"count": "1",
+															"passengerTypeCode": "1",
+															"passengerTypeName": "Adulto",
+															"clearPrice": "77,01",
+															"clearPriceOR": "",
+															"promoCode": "",
+															"promoName": "",
+															"busAndBoatSalePromo": "0",
+															"mandatoryOutboundReturn": "0",
+															"promoObservation": ""
+														}
+													]
+												}
+											}
+										]
+									},
+									"popupMessages": null,
+									"itinerary":
+									{
+										"itSegment":
+										[
+											{
+												"num": "1",
+												"hours": "0",
+												"minutes": "0",
+												"originName": "CARTAGENA",
+												"originCode": "615",
+												"destinationName": "MADRID ESTACION SUR",
+												"destinationCode": "155",
+												"arrivalDate": "24/06/2023",
+												"arrivalTime": "04:50",
+												"freeSeats": "23",
+												"typeService": "Normal"
+											},
+											{
+												"num": "2",
+												"hours": "1",
+												"minutes": "25",
+												"originName": "MADRID ESTACION SUR",
+												"originCode": "155",
+												"destinationName": "OVIEDO / UVIEU",
+												"destinationCode": "186",
+												"arrivalDate": "24/06/2023",
+												"arrivalTime": "12:45",
+												"freeSeats": "14",
+												"typeService": "Normal"
+											}
+										]
+									}
+								}
+							],
+							"nextDay":
+							{
+								"type": "n",
+								"direction": "0",
+								"section": "0",
+								"sessionId": "860d03f6d75401f3581c4e5cced5548e277cdb62"
+							},
+							"previousDay":
+							{
+								"type": "p",
+								"direction": "0",
+								"section": "0",
+								"sessionId": "860d03f6d75401f3581c4e5cced5548e277cdb62"
+							}
+						}
+					]
+				}
+			}
+		}
+	}
+}
