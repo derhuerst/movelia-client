@@ -1,6 +1,8 @@
 import {strictEqual} from 'node:assert'
 import {DateTime, IANAZone} from 'luxon'
 import {fetchFromMoveliaApi} from './lib/fetch.js'
+import {tokenStore as defaultTokenStore} from './lib/token-store.js'
+import {ensureToken} from './lib/ensure-token.js'
 import {parseJourney} from './lib/parse.js'
 
 const EuropeMadrid = new IANAZone('Europe/Madrid')
@@ -20,43 +22,17 @@ const PASSENGER_AGE_GROUPS = {
 	SENIOR,
 }
 
-const ensureToken = async (cfg) => {
-	const {
-		userAgent,
-		user,
-		password,
-	} = cfg
-
-	// todo: re-use previously obtained token
-
-	const getTokenRes = await fetchFromMoveliaApi({
-		call: 'GetToken',
-		method: 'POST',
-		userAgent,
-		headers: {
-			'Content-Type': 'application/json',
-		},
-		body: JSON.stringify({
-			user,
-			password,
-			// todo: make customisble?
-			language: 'es',
-		}),
-	})
-
-	return getTokenRes.value
-}
-
 const defaults = {
-	userAgent: DEFAULT_USER_AGENT,
 	user: ANONYMOUS_USER,
 	password: ANONYMOUS_PASSWORD,
+	tokenStore: defaultTokenStore,
 }
 
 const fetchStopsFromMoveliaApi = async (opt = {}) => {
 	const {
 		user,
 		password,
+		tokenStore,
 	} = {
 		...defaults,
 		...opt,
@@ -65,6 +41,7 @@ const fetchStopsFromMoveliaApi = async (opt = {}) => {
 	const token = await ensureToken({
 		user,
 		password,
+		tokenStore,
 	})
 
 	const cities = await fetchFromMoveliaApi({
@@ -87,6 +64,7 @@ const fetchStopsFromMoveliaApi = async (opt = {}) => {
 // 	const {
 // 		user,
 // 		password,
+// 		tokenStore,
 // 	} = {
 // 		...defaults,
 // 		...opt,
@@ -95,6 +73,7 @@ const fetchStopsFromMoveliaApi = async (opt = {}) => {
 // 	const token = await ensureToken({
 // 		user,
 // 		password,
+// 		tokenStore,
 // 	})
 
 // 	const its = await fetchFromMoveliaApi({
@@ -148,6 +127,7 @@ const fetchItinerariesFromMoveliaApi = async (origin, destination, opt = {}) => 
 	const {
 		user,
 		password,
+		tokenStore,
 		when,
 		passengers,
 	} = {
@@ -164,6 +144,7 @@ const fetchItinerariesFromMoveliaApi = async (origin, destination, opt = {}) => 
 	const token = await ensureToken({
 		user,
 		password,
+		tokenStore,
 	})
 
 	const departureDate = DateTime

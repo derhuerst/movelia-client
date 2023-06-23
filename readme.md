@@ -149,6 +149,13 @@ console.log(await fetchItineraries('BARCELONA', 'ZARAGOZA', {
 }
 ```
 
+### token store
+
+The movelia API requires users to obtain a token to send with API calls. `movelia-client` automatically obtains such a token and re-uses it across API calls and Node.js processes.
+
+It uses [`localstorage-ponyfill`](https://npmjs.com/package/localstorage-ponyfill) for this. Therefore, it needs write access to a directory `.cache` where your `package.json` resides.
+
+If you do not want this, pass in a custom `opt.tokenStore` with the (sync) methods `init()`, `readToken()`, `writeToken(token)` & `forgetToken()`.
 
 ## Contributing
 
