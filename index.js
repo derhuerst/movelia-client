@@ -75,11 +75,11 @@ const fetchFromMoveliaApi = async (cfg) => {
 	debugFetch(url, req)
 	const res = await fetch(url, req)
 
+	let resBody = await res.text()
 	if (!res.ok) {
-		let body = null
 		let msg = `${url}: ${res.status} ${res.statusText}`
 		try {
-			body = await res.json()
+			resBody = JSON.parse(resBody)
 			// their error responses look like this:
 			// {
 			// 	"StatusCode": 400,
@@ -89,8 +89,8 @@ const fetchFromMoveliaApi = async (cfg) => {
 			// 	"International": false,
 			// 	"NoSchedules": false
 			// }
-			if ('string' === typeof body.Message) {
-				msg = body.Message.trim()
+			if ('string' === typeof resBody.Message) {
+				msg = resBody.Message.trim()
 			}
 		} catch (err) {
 			//
@@ -99,12 +99,13 @@ const fetchFromMoveliaApi = async (cfg) => {
 		err.url = url
 		err.status = res.status
 		err.statusText = res.statusText
-		err.responseBody = body
+		err.responseBody = resBody
 		throw err
 	}
 
 	debugFetch(res.status, res.statusText, Object.fromEntries(res.headers.entries()))
-	return await res.json()
+	debugFetch(resBody)
+	return JSON.parse(resBody)
 }
 
 const ensureToken = async (cfg) => {
