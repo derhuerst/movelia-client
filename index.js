@@ -288,4 +288,5 @@ const fetchItinerariesFromMoveliaApi = async (origin, destination, opt = {}) => 
 export {
 	fetchStopsFromMoveliaApi as fetchStops,
 	fetchItinerariesFromMoveliaApi as fetchItineraries,
+	PASSENGER_AGE_GROUPS,
 }
