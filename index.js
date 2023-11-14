@@ -4,6 +4,7 @@ import {fetchFromMoveliaApi} from './lib/fetch.js'
 import {tokenStore as defaultTokenStore} from './lib/token-store.js'
 import {ensureToken} from './lib/ensure-token.js'
 import {parseJourney} from './lib/parse.js'
+import {scrapeOriginDestinationPairs} from './lib/scrape-connections.js'
 
 const EuropeMadrid = new IANAZone('Europe/Madrid')
 
@@ -289,4 +290,5 @@ export {
 	fetchStopsFromMoveliaApi as fetchStops,
 	fetchItinerariesFromMoveliaApi as fetchItineraries,
 	PASSENGER_AGE_GROUPS,
+	scrapeOriginDestinationPairs,
 }
